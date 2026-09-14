@@ -2,6 +2,19 @@
 
 This scenario should encompass all of the topics provided in the module. Now that you’ve delved into creating a new class in Python it is now time to practice this concept.
 
+## Project Implementation
+
+This project implements two Python classes for a bookstore:
+
+- **Book** — stores a book title and page count, validates the page count, and provides a method for turning a page.
+- **Coffee** — stores coffee size and price, validates the size, and provides a tip method that increases the price by 1.
+
+### Testing
+
+The project uses pytest to test both classes. All tests are passing.
+
+```text
+7 passed
 ## The Scenario
 
 You are tasked with building two different classes to aid with representing and modeling a bookstore. First will be a book object to allow for reading an online book and the second will be a coffee object as another object carried by the store. Both objects will have several attributes and functions to be called. 
@@ -144,3 +157,8 @@ Before you submit your solution, you need to save your progress with git.
   * Click on + Create Submission. Connect your repository for this lab.
   * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvas)
 
+## Completed Work
+
+The completed Book and Coffee classes were tested successfully with pytest.
+
+![Completed pytest results](screenshots/pytest-results.png)
