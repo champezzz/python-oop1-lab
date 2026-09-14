@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+# Represents a book in the bookstore.
 class Book:
     def __init__(self, title, page_count):
         self.title = title
@@ -10,10 +12,12 @@ class Book:
 
     @page_count.setter
     def page_count(self, value):
+        # Page count must be an int
         if isinstance(value, int):
             self._page_count = value
         else:
             print("page_count must be an integer")
 
     def turn_page(self):
+        #Display a message when a page is turned.
         print("Flipping the page...wow, you read fast!")     
